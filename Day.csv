@@ -1,0 +1,75 @@
+﻿Student#,Location,Day,AQI,Time Begin,Weather,Temp (C) ,species count,bird count,Most common species,behavior,Notes
+14,"Harrisville, NH",2/19/2021,29,16:00,Partly cloudy,-2,1,2,Dark-eyed Junco,Hopping on ground,
+14,"Harrisville, NH",2/20/2021,40,16:00,snowy,-2,0,0,N/A,N/A,
+14,"Harrisville, NH",2/21/2021,39,16:00,sunny,1,4,4,"Red-breasted nuthatch, black-capped chickadee, house sparrow, house finch",Perching,
+14,"Harrisville, NH",2/22/2021,45,16:00,snowy,1,0,0,N/A,N/A,
+14,"Harrisville, NH",2/23/2021,47,16:30,rainy,2,0,0,N/A,N/A,
+14,"Harrisville, NH",2/24/2021,24,16:00,Partly cloudy,7,4,7,Black-capped Chickadee,Feeding,
+9,"Akron, OH",2/18/2021,58,12:30,Overcast,-2,7,55,Cardinal,Feeding,
+9,"Akron, OH",2/19/2021,68,12:30,Partly cloudy,-4,7,38,Cardinal,Feeding,
+9,"Akron, OH",2/20/2021,92,12:30,Overcast,-6,8,48,"Cardinal, black capped chickadee",Feeding,
+9,"Akron, OH",2/21/2021,85,12:30,Sunny,-2,8,39,Black capped chickadee,Flying,
+9,"Akron, OH",2/22/2021,52,12:30,Overcast,3,7,38,Cardinal,Feeding,
+9,"Akron, OH",2/23/2021,52,12:30,Partly cloudy,6,8,35,Cardinal,Flying,
+9,"Akron, OH",2/24/2021,43,12:30,Partly cloudy,12,3,10,Black capped chickadee,Flying,
+4,"Sapsucker Woods, Ithaca, New York",2/18/2020,12,11:43,partly cloudy,-4,10,56,black capped chickadee,feeding ,
+4,"Sapsucker Woods, Ithaca, New York",2/19/2020,15,11:10,sunny ,-2,9,34,mourning dove ,feeding ,
+4,"Sapsucker Woods, Ithaca, New York",2/20/2020,17,12:10,snowy ,-4,8,33,black capped chickadee,feeding ,
+4,"Sapsucker Woods, Ithaca, New York",2/21/2020,13,1:30,sunny ,-2,5,67,black capped chickadee,feeding ,
+4,"Sapsucker Woods, Ithaca, New York",2/22/2020,11,11:30,snowy ,-3,5,62,black capped chickadee,feeding ,
+4,"Sapsucker Woods, Ithaca, New York",2/23/2020,25,4:00,partly cloudy,2,1,12,northern cardinal ,feeding ,
+4,"Sapsucker Woods, Ithaca, New York",2/24/2020,14,4:00,sunny ,10,3,3,"downy woodpecker, white breasted nuthatch, norther cardinal ",feeding ,
+2,"Sapsucker Woods, Ithaca, New York",2/19/2021,15,13:02,sunny,1,7,73,Black-Capped Chickadee,Feeding,
+2,"Sapsucker Woods, Ithaca, New York",2/20/2021,17,13:00,sunny,-1,8,75,Black-Capped Chickadee,Feeding,
+2,"Sapsucker Woods, Ithaca, New York",2/21/2021,13,13:00,Partly Cloudy,1,7,73,Black-Capped Chickadee,Feeding,
+2,"Sapsucker Woods, Ithaca, New York",2/22/2021,11,13:05,sunny,2,6,92,Black-Capped Chickadee,Feeding,
+2,"Sapsucker Woods, Ithaca, New York",2/23/2021,25,13:00,rainy,4,5,74,Black-Capped Chickadee,Feeding,
+2,"Sapsucker Woods, Ithaca, New York",2/24/2021,14,13:04,sunny,-1,7,50,Black-Capped Chickadee,Feeding,windy; Many birds came into view to feed during lulls in the wind
+8,"Massanutten, VA",2/19/2021,40,10:00,Overcast,-2,5,14,American Goldfinch,Feeding,"There was snow on the ground from a couple days ago. I am observing from inside, so I can only really hear birds that are close or really loud. I used binoculars to see birds from further away, but that means I may have missed something while I was looking through them. There were some American Crows in the distant trees, but I did not count them because they did not come into my backyard/feeder site"
+8,"Massanutten, VA",2/20/2021,41,10:00,Partly Cloudy,-4,8,17,American Goldfinch & Dark-eyed Junco,Feeding,Squirrels were also present in the feeding. There was snow on the ground still
+8,"Massanutten, VA",2/21/2021,52,10:00,Sunny,-4,3,10,American Goldfinch,Perching,"There was snow on the ground, quite icy/hard. Right before I started recording, my dad was outside putting birdseed out. He also put some on our deck during my recording time, so I think some birds were scared off for a little bit."
+8,"Massanutten, VA",2/22/2021,52,10:00,Snowy,0,6,13,American Goldfinch,Feeding,"My dad came back from his walk with our dog part-way through and the sounds from the front yard may have scared some of the birds away from our backyard feeders, because a lot of them left at one point"
+8,"Massanutten, VA",2/23/2021,21,10:00,Sunny,5,4,8,American Goldfinch,Feeding,"There is still snow on the ground, but it seems to be melting more now. It was also pretty windy today. There was a squirrel in the feeder site today. There was less seed on the ground and on our deck today, and the snow seemed to cover most of the rest up that was left over from a couple days ago"
+8,"Massanutten, VA",2/24/2021,21,10:00,Partly Cloudy,5,2,4,American Crow & Carolina Wren,Flying or Perching,"The snow on the ground has mostly melted, except for some spots closer to the house. There is a new bird feeder in my backyard that is slightly out of my line of vision from the window I have been looking out of for the rest of these session. There were also a lot of squirrels at the site today. My dad came home from walking our dog towards the beginning of this session, so that might have scared some of the birds away from our house."
+12,"Sapsucker Woods, Ithaca, NY",2/19/2021,15,7:00,Snowy,-5,10,54,Northern Cardinal,Feeding,"Multiple feed types - millet, sunflower, peanut, thistle seed"
+12,"Sapsucker Woods, Ithaca, NY",2/20/2021,17,7:15,Partly Cloudy,-6,12,81,Black-capped Chickadee,Feeding,"When larger birds were present, smaller birds were less frequent"
+12,"Sapsucker Woods, Ithaca, NY",2/21/2021,13,7:45,Sunny,-10,10,111,Black-capped Chickadee,Feeding,"Lots of pinesiskins today, and where there is one siskin, there are many siskins; low feeders"
+12,"Sapsucker Woods, Ithaca, NY",2/22/2021,11,8:08,Snowy,-2,6,56,Black-capped Chickadee,Feeding,Lower feeders
+12,"Sapsucker Woods, Ithaca, NY",2/23/2021,25,10:35,Partly Cloudy,0,9,80,Black-capped Chickadee,Feeding,Still low feeders
+12,"Sapsucker Woods, Ithaca, NY",2/24/2021,14,9:55,Sunny,3,6,30,Black-capped Chickadee,Feeding,"Peanuts were filled, no sunflower"
+3,"Beijing, China",2/19/2021,63,14:00,Partly cloudy,17,2,11,Oriental magpie,Stationary Perching,
+3,"Beijing, China",2/20/2021,72,14:00,Partly cloudy,21,2,6,Eurasian tree sparrow,Flyinng,
+3,"Beijing, China",2/21/2021,112,14:00,Sunny,26,2,7,Oriental magpie,Flyinng,
+3,"Beijing, China",2/22/2021,51,14:00,Partly cloudy,15,1,3,Azure-winged magpie,Flyinng,
+3,"Beijing, China",2/24/2021,48,14:00,Partly cloudy,4,1,2,Common raven,Flyinng,
+3,"Beijing, China",2/25/2021,48,14:00,Partly cloudy,6,1,5,Eurasian tree sparrow,Flyinng,
+1,"Manitouwadge, Ontario",2/18/2021,8,8:00,Overcast,-31,4,19,Common redpoll,Feeding,
+1,"Manitouwadge, Ontario",2/19/2021,9,8:00,Snowy,-16,3,4,Black-capped chickadee,Feeding,
+1,"Manitouwadge, Ontario",2/20/2021,11,8:00,Snowy,-17,5,16,Common redpoll,Feeding,
+1,"Manitouwadge, Ontario",2/21/2021,18,8:00,Overcast,-11,3,3,None,Feeding,
+1,"Manitouwadge, Ontario",2/22/2021,11,8:00,Overcast,-2,1,3,Black-capped chickadee,Feeding,
+1,"Manitouwadge, Ontario",2/23/2021,11,8:00,Overcast,-3,2,5,Blue jay,Flying,
+1,"Manitouwadge, Ontario",2/24/2021,8,8:00,Snowy,-13,1,1,Red-breasted nuthatch,Feeding,
+6,"Sapsucker Woods, Ithaca, NY",2/18/2021,12,11:56,Sunny,-5,13,42,Black-capped chickadee,Feeding,
+6,"Sapsucker Woods, Ithaca, NY",2/19/2021,15,16:00,Snowy,-2,5,60,Black-capped chickadee,Feeding,
+6,"Sapsucker Woods, Ithaca, NY",2/20/2021,17,11:08,Sunny,-2,10,83,Black-capped chickadee,Feeding,
+6,"Sapsucker Woods, Ithaca, NY",2/21/2021,13,17:45,Sunny,-1,1,4,Northern cardinal,Feeding,
+6,"Sapsucker Woods, Ithaca, NY",2/22/2021,11,14:05,Overcast,-1,10,81,Black-capped chickadee,Calling,
+6,"Sapsucker Woods, Ithaca, NY",2/23/2021,25,16:24,Rainy,4,4,41,Black-capped chickadee,Flying,
+6,"Sapsucker Woods, Ithaca, NY",2/24/2021,14,14:01,Sunny,7,8,61,Black-capped chickadee,Flying,
+7,"Sapsucker Woods, Ithaca, NY",2/24/2021,14,16:00,Sunny,7,3,3,"Down Woodpecker, White-breasted Nuthatch, Northern Cardinal",Feeding,Very few birds at this time
+7,"Sapsucker Woods, Ithaca, NY",2/23/2021,11,15:00,Sunny,-1,5,64,Black capped Chikadee,Feeding,
+7,"Sapsucker Woods, Ithaca, NY",2/22/2021,13,13:00,Snowy,-2,3,15,Black capped Chickadee,Feeding,
+7,"Sapsucker Woods, Ithaca, NY",2/21/2021,17,13:30,Sunny,-2,5,67,Black capped Chickadee,Feeding,
+7,"Sapsucker Woods, Ithaca, NY",2/19/2020,15,11:00,Sunny,-2,8,38,Morning dove,Feeding,
+7,"Sapsucker Woods, Ithaca, NY",2/18/2020,12,11:50,Partly cloudy,-4,10,40,Black capped Chickadee,Feeding,
+10,"Naples, FL",2/18/2021,38,16:45,Sunny,28,14,29,Northern Mockingbird,"Singing for mockingbirds, foraging for everything else","Typical evening activity in the side yard and adjacent field, lots of foraging birds, a few flybys and the usual heightened activity of the Mockingbirds in the evening. I recorded 5 Mockingbirds, but they are hard to keep track of and I would imagine there were more moving throughout the area. "
+10,"Naples, FL",2/19/2021,29,16:34,Partly Cloudy Windy,26,12,57,Cedar Waxwing,"Flying for waxwings, foraging for everything else","It was a bit windier today than yesterday as a storm cloud was moving in off the gulf. This caused the weather to change from sunny to cloudy during the observation time with the wind coming from a SW direction. The first Cedar Waxwing group was an exact count, but the second was an estimate of a 25 bird flock. "
+10,"Naples, FL",2/22/2021,30,17:06,Sunny,27,15,26,European Starling,"Perching for starlings, foraging for everything else","Pretty normal evening activity, the Great Egret flyby was the oddball and it was a good evening for warbler species diversity. The local Kestrel is always in the same spot every evening. "
+10,"Naples, FL",2/24/2021,37,16:40,Sunny,23,13,37,Blue Jay,"Perching/calling for Blue Jays, foraging for everyting else","Pretty typical evening, good numbers of Red-bellied, Blue Jay and Mockingbirds. The good old Kestrel has been on its same two perches every evening for the past several months. Pretty neat. "
+11,"San Diego, CA",2/19/2021,38,16:09,Sunny,14,2,4,"Ground Finch, Song Sparrow",Soaring/flying,"Yard work was going on all week at the neighbor's house, and their dog barks frequently, which may have scared birds away and explain the low count"
+11,"San Diego, CA",2/20/2021,54,16:29,Sunny,15,4,7,Ground finch,Stationary perching,
+11,"San Diego, CA",2/21/2021,30,16:02,Sunny,24,1,1,American Crow,Soaring/flying,
+11,"San Diego, CA",2/22/2021,22,16:05,Sunny,25,1,2,Mourning dove,Stationary Perching,
+11,"San Diego, CA",2/23/2021,32,16:00,Sunny,23,3,8,"Mourning dove, Song Sparrow","perching, fighting",
+11,"San Diego, CA",2/24/2021,52,16:02,Sunny,21,2,2,"Mourning dove, Song Sparrow","perching, feeding",
