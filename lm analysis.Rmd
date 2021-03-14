@@ -1,0 +1,111 @@
+---
+title: "Bird Lab"
+author: "Hang Li"
+date: "3/4/2021"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ggformula)
+```
+
+Previous studies have shown that polluted air can cause abnormal breathing, morphological changes, and etc. in birds. However, few have established a relationship between the intensity of air pollution and the birds we can observe from day to day. Can we use the PM 2.5 Air Quality Index (AQI) to predict species diversity and the numbers of birds observed? To perform our analysis, we need to manually add the air quality information to our "Day Summary Data" spreadsheet. The data for US cities can be found at "https://www.airnow.gov/". The AQI for Ontario can be found at "https://air-quality.com/". The data for Haidian, Beijing can be found at “http://lishi.tianqi.com/haidian/”. For cities that don't report AQI, we use the data from the nearest reporting region. Out of different AQIs, we choose the PM 2.5 AQI because its availability world wide. Previous studies have determined that exposure to air pollutants can result in increased detoxification and elevated stress levels in birds. Even though $CO$ and $O_3$ index are sometimes available, their effects are known to be chronicle. (see citations at the end)
+
+We hypothesize that increases in AQI lead to decreases in the number of species and individual birds observed. As exposure to air pollutants can be extremely harmful, so it makes sense for birds to be less active when the AQI is high.
+
+## Data Cleaning
+
+We manually add the AQI data to the second page of "Student Bird Observation Data Compiled.xlsx" and save it as a csv file for easier loading. The csv file can be found at "https://github.com/RabbitChowder/bird-AQI". Specifically, we are intersected in the AQI, number of species observed, number of birds observed, and most common behavior.
+```{r clean1, echo=F}
+setwd("C:/Users/Ch2ya/Desktop/bird")
+data<-read.csv("Day.csv")
+tdata<-select(data, c("AQI", "species.count", "bird.count", "behavior"))
+str(tdata)
+```
+
+We see that there are a few entries with 0 birds observed. We are going to removing those. Here are the first 10 entries of our new data set:
+
+```{r clean2, echo=F}
+tdata<-filter(tdata, bird.count!=0)
+head(tdata, 10)
+```
+
+Our data now contains 71 observations instead of 74.
+
+## Creating Linear Model
+
+We see if there is a simple linear relationship between AQI vs. species count and AQI vs. bird count.
+
+**Number of Species Observed**
+
+```{r lm1, echo=F}
+model1<-lm(species.count~AQI, data=tdata)
+summary(model1)
+gf_point(species.count~AQI, data=tdata) %>%
+  gf_lm()
+```
+
+Our r-squared is abysmal: 1.4% of the variability in our response can be explained by our model. We must conclude that there isn't a linear relationship between species count and AQI in our data.
+
+
+**Number of Birds Observed**
+
+```{r lm2, echo=F}
+model2<-lm(bird.count~AQI, data=tdata)
+summary(model2)
+gf_point(bird.count~AQI, data=tdata) %>%
+  gf_lm()
+```
+
+With a p-value of 0.0178, AQI certainly seems to be a decent predictor of the number of birds. Let us now check the model assumptions.
+
+```{r lm21, echo=F}
+par(mfrow=c(2,2))
+plot(model2)
+```
+
+Notice the the residuals are clustered to the right in the residuals vs fitted plot and the qq plot is extremely heavy tailed. We might consider some transformations.
+
+```{r lm3, echo=F}
+model3<-lm(bird.count~log(AQI), data=tdata)
+summary(model3)
+gf_point(bird.count~log(AQI), data=tdata) %>%
+  gf_lm()
+par(mfrow=c(2,2))
+plot(model3)
+```
+
+After log transforming the data, the constant variance assumption is reasonably met as shown in the residual vs fitted plot. The qq plot resembles that of a normal distribution better. The mean of the error terms seems to the zero. In addition, there aren't any obvious reason why the observations aren't mutually independent. With a p-value of 0.0078, we can conclude that log(AQI) is a significant predictor of the number of birds observed. With an increase of 1 in log(AQI), we can expect the observe on average 13.5 less birds with a standard error of 4.9.
+
+Overall, our data indicate there is a negative correlation between AQI and number of birds observed, while no correlation between AQI and number of species observed. It might be the case that all species are effected by air pollutants equally, or that we need a larger sample size to see the relationship. To improve on our findings and eliminate the potential confounding variables like time and temperature, a experimental design where location and time are predetermined is needed.
+
+We are interested in using the AQI to predict the number of species/birds in our analysis. Even though we established that AQI is a significant predictor for bird count, it only accounts for about 10% if the variations in our data. Can we build a model that fits the data better? It does not seem like we can improve our r-squared by much by only using the AQI. However, temperature, time, and location all seems to be promising predictors for species/bird count. For further research, it would be interesting to see if we can build a multiple variable model that predicts the number of birds/species with more accuracy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
